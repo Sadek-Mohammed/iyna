@@ -1,0 +1,47 @@
+.image-logo{
+    height: 50px;
+}
+.navbar-brand:hover{
+    animation: rotator 3s;
+}
+.header-animation{
+    width: 50%;
+}
+.header-words{
+    width: 50%;
+}
+.feature{
+    width: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feature-text{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 992px){
+    .features-container{
+        flex-wrap: wrap;
+    }
+    .feature{
+        width: 45%!important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .header-container{
+        flex-wrap: wrap;
+    }
+    .header-animation{
+        width: 100%;
+    }
+    .header-words{
+        width: 100%;
+    }
+    .feature{
+        width: 90%!important;
+    }
+}
