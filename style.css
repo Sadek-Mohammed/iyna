@@ -1,14 +1,87 @@
 .image-logo{
     height: 50px;
 }
+.navbar {
+    background-color: #fff!important;
+    z-index: 5555;
+}
+.navbar .nav-link {
+    color: #eee;
+    font-weight: 700;
+    margin: 0 6px;
+    font-size: 15px;
+}
 .navbar-brand:hover{
     animation: rotator 3s;
 }
-.header-animation{
+.header{
+    height: 350px;
+}
+.header-animation-container{
     width: 50%;
+    height: 100%;
 }
 .header-words{
     width: 50%;
+    height: 100%;
+}
+@keyframes logo-start {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.iyna-animated-logo{
+    width: 50%;
+    animation: logo-start 5s 1;
+    transition: 2s;
+}
+.iyna-animated-logo:hover,
+.iyna-animated-logo:active,
+.iyna-animated-logo:focus{
+    transform: scale(1.2);
+}
+.quote-symbol{
+    color: rgba(0, 0, 0, 0.473);
+}
+.quote-saying{
+    font-size: 25px;
+}
+.misandvis{
+    background-color: #000 !important;
+    border-radius: 50px;
+}
+.ind{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+.col-body{
+    font-size: 12px;
+}
+.team-member{
+    width: 22%!important;
+    border-radius: 25px;
+    transition: 0.5s;
+    box-shadow: 2px 2px 15px #0000001c,-2px -2px 15px #0000001c;
+}
+.team-member:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 15px #00000063,-2px -2px 15px #00000063;
+}
+.team-member-image{
+    border-radius: 50%;
+}
+.icon-member{
+    fill:#00000098!important;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 .feature{
     width: 26%;

@@ -8,18 +8,18 @@
     <title>IYNA October Chapter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
 </head>
 
 <body>
-    <nav class="p-1 ps-2 pe-2 navbar navbar-expand-sm d-flex justify-content-between bg-light navbar-light">
+    <nav class="p-1 ps-2 pe-2 container navbar navbar-expand-sm d-flex justify-content-between navbar-light">
         <a class="navbar-brand" href="index.html"><img class="image-logo" src="img/Logo.png" alt="Logo of brand" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
             aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto text-dark">
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         Home
@@ -30,7 +30,7 @@
                         Journals
                     </a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navdropper" data-bs-toggle="dropdown">
                         Explore Neuroscience
                     </a>
@@ -38,7 +38,7 @@
                         <a class="dropdown-item" href="#">Books</a>
                         <a class="dropdown-item" href="#">Courses</a>
                     </div>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         About Us
@@ -47,52 +47,170 @@
             </ul>
         </div>
     </nav>
-    <div class="header">
-        <div class="container header-container p-lg-5 d-flex justify-content-center">
-            <div class="animation header-animation">
-                <lottie-player src="img/lab.json" background="transparent" speed="1" style="width: 100%; height: 100%;"
-                    loop autoplay></lottie-player>
+    <div class="header pt-5 pb-5">
+        <div class="container h-100 header-container align-items-center p-lg-5 d-flex justify-content-center">
+            <div class="text-uppercase header-words d-flex justify-content-start align-items-center fs-2">
+                IYNA STEM OCTOBER Chapter
             </div>
-            <div class="header-words d-flex justify-content-center align-items-center">
-                Discover the Beautiful Neuroscience
+            <div class="text-uppercase header-animation-container d-flex justify-content-center align-items-center">
+                <img src="img/Logo.png" alt="IYNA October Logo" class="iyna-animated-logo">
             </div>
         </div>
     </div>
-    <div class="features">
-        <div class="container features-container d-flex justify-content-center justify-content-lg-between">
-            <div class="feature mb-md-5 mb-lg-0 mb-2">
-                <lottie-player src="img/session.json" background="transparent" speed="1"
-                    style="width: 100%; height: 100%;" loop autoplay></lottie-player>
-                <div class="feature-text">
-                    Learn with our resources from your home
-                </div>
-                <button class="btn btn-primary">
-                    Let's learn
-                </button>
+    <div class="quote">
+        <div
+            class="quote-container container ms-auto me-auto flex-column justify-content-center align-items-center d-flex">
+            <div class="quote-symbol w-100 d-flex fw-bolder align-items-center justify-content-center fs-1">
+                "
             </div>
-            <div class="feature mb-md-5 mb-lg-0 mb-2">
-                <lottie-player src="img/brain.json" background="transparent" speed="1"
-                    style="width: 100%; height: 100%;" loop autoplay></lottie-player>
-                <div class="feature-text">
-                    Discover more about brains with other ambitious brains
-                </div>
-                <button class="btn btn-primary">
-                    Let's learn
-                </button>
-            </div>
-            <div class="feature mb-md-5 mb-lg-0 mb-2">
-                <lottie-player src="img/research.json" background="transparent" speed="1"
-                    style="width: 100%; height: 100%;" loop autoplay></lottie-player>
-                <div class="feature-text">
-                    Do your researches with us in a rigorous environment
-                </div>
-                <button class="btn btn-primary">
-                    Let's learn
-                </button>
+            <div class="quote-saying fw-bold mb-5 text-dark">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, architecto illum.
             </div>
         </div>
+    </div>
+    <div class="misandvis m-5 p-5">
+        <!-- <div class="inds d-flex justify-content-around fw-bolder">
+            <div class="ind ind-mis">Mission</div>
+            <div class="ind ind-vis">Vision</div>
+        </div> -->
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-6">
+                    <div class="col-title mb-1 fw-bolder text-white fs-4">
+                        Preparing materials for further knowledge.
+                    </div>
+                    <div class="col-body text-white fw-lighter">
+                        Since we are keen on providing more knowledge for students loving neuroscience, we will provide
+                        materials for further nerology studying.
+                    </div>
+                </div>
+                <div class="col-7 text-end ms-auto">
+                    <div class="col-title mb-1 fw-bolder text-white fs-4">
+                        Curious about neuro, researching it.
+                    </div>
+                    <div class="col-body text-white fw-lighter">
+                        We adore the curiosity of highschool students for research, and we would like to drive it into
+                        research.
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-title mb-1 fw-bolder text-white fs-4">
+                        Publishing issues for the ambitious.
+                    </div>
+                    <div class="col-body text-white fw-lighter">
+                        We provide a place for anyone who could like to publish a research about neuroscience, editing,
+                        and constructive feedback.
+                    </div>
+                </div>
+                <div class="col-7 text-end ms-auto">
+                    <div class="col-title mb-1 fw-bolder text-white fs-4">
+                        Providing various competitions.
+                    </div>
+                    <div class="col-body text-white fw-lighter">
+                        We are enthusiastic about managing and organizing our own competitions.
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-title mb-1 fw-bolder text-white fs-4">
+                        Providing a competitive environment.
+                    </div>
+                    <div class="col-body text-white fw-lighter">
+                        We provide support and materials for the students who would like to join Egyptian Brain Bee,
+                        where we also provide competitions of owr own.
+                    </div>
+                </div>
+                <div class="col-7 text-end ms-auto">
+                    <div class="col-title mb-1 fw-bolder text-white fs-4">
+                        Knowledgeable about neuro career path.
+                    </div>
+                    <div class="col-body text-white fw-lighter">
+                        We aim to provide knowledge about the available jobs for everyong with a neuroscience degree.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <div class="container team-container d-flex justify-content-between">
+            <div class="team-member p-3 d-flex align-items-center flex-column">
+                <div class="team-member-image-container mb-2 w-100">
+                    <img src="img/pro1.jpg" alt="Team Member 1" class="team-member-image w-100">
+                </div>
+                <div class="team-member-name fs-5 fw-bold">Jonathan Maged</div>
+                <div class="team-member-position text-uppercase fw-lighter mb-2 fs-6">ceo</div>
+                <div class="team-member-social d-flex">
+                    <svg class="icon-member icon-facebook">
+                        <use xlink:href="img/icons.svg#icon-facebook"></use>
+                    </svg>
+                    <svg class="icon-member icon-instagram">
+                        <use xlink:href="img/icons.svg#icon-instagram"></use>
+                    </svg>
+                    <svg class="icon-member icon-envelop">
+                        <use xlink:href="img/icons.svg#icon-envelop"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="team-member p-3 d-flex align-items-center flex-column">
+                <div class="team-member-image-container mb-2 w-100">
+                    <img src="img/pro1.jpg" alt="Team Member 1" class="team-member-image w-100">
+                </div>
+                <div class="team-member-name fs-5 fw-bold">Shehab Sherif</div>
+                <div class="team-member-position text-uppercase fw-lighter mb-2 fs-6">cco</div>
+                <div class="team-member-social d-flex">
+                    <svg class="icon-member icon-facebook">
+                        <use xlink:href="img/icons.svg#icon-facebook"></use>
+                    </svg>
+                    <svg class="icon-member icon-instagram">
+                        <use xlink:href="img/icons.svg#icon-instagram"></use>
+                    </svg>
+                    <svg class="icon-member icon-envelop">
+                        <use xlink:href="img/icons.svg#icon-envelop"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="team-member p-3 d-flex align-items-center flex-column">
+                <div class="team-member-image-container mb-2 w-100">
+                    <img src="img/pro1.jpg" alt="Team Member 1" class="team-member-image w-100">
+                </div>
+                <div class="team-member-name fs-5 fw-bold">Rashad Abdeltawab</div>
+                <div class="team-member-position text-uppercase fw-lighter mb-2 fs-6">...</div>
+                <div class="team-member-social d-flex">
+                    <svg class="icon-member icon-facebook">
+                        <use xlink:href="img/icons.svg#icon-facebook"></use>
+                    </svg>
+                    <svg class="icon-member icon-instagram">
+                        <use xlink:href="img/icons.svg#icon-instagram"></use>
+                    </svg>
+                    <svg class="icon-member icon-envelop">
+                        <use xlink:href="img/icons.svg#icon-envelop"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="team-member p-3 d-flex align-items-center flex-column">
+                <div class="team-member-image-container mb-2 w-100">
+                    <img src="img/pro1.jpg" alt="Team Member 1" class="team-member-image w-100">
+                </div>
+                <div class="team-member-name fs-5 fw-bold">Ahmed Essam</div>
+                <div class="team-member-position text-uppercase fw-lighter mb-2 fs-6">Event Manager</div>
+                <div class="team-member-social d-flex">
+                    <svg class="icon-member icon-facebook">
+                        <use xlink:href="img/icons.svg#icon-facebook"></use>
+                    </svg>
+                    <svg class="icon-member icon-instagram">
+                        <use xlink:href="img/icons.svg#icon-instagram"></use>
+                    </svg>
+                    <svg class="icon-member icon-envelop">
+                        <use xlink:href="img/icons.svg#icon-envelop"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div m-5">
+
     </div>
     <script src="script/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </body>
 
 </html>
