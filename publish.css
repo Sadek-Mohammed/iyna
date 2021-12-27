@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,600;1,700;1,800&display=swap');
+body{
+    font-family: "Montserrat";
+}
+.wh-pub-item{
+    width: 20%;
+}
+.icon-pub{
+    width: 50px;
+    height: 50px;
+}
+.image-logo{
+    height: 50px;
+}
+.navbar {
+    background-color: #fff!important;
+    z-index: 5555;
+}
+.navbar .nav-link {
+    color: #eee;
+    font-weight: 700;
+    margin: 0 6px;
+    font-size: 15px;
+}
+.navbar-brand:hover{
+    animation: rotator 3s;
+}
+#contact-nav:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #0000001c, -2px -2px 2px #0000001c ;
+}
+.criteria-item{
+    background-color: rgba(241, 238, 238, 0.753);
+}
+.criteria-item-count{
+    background-color: rgb(239,113,151);
+    padding: 0.5rem;
+    color: white;
+    height: 100%;
+}
+.guidelines-title{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(239,113,151);
+}
+.guidelines-btn{
+    border-radius: 5rem;
+}
+.icon-arrow{
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+.footer-element.info{
+    width: 60% !important;
+}
+.footer-element.contact{
+    width: 40% !important;
+}
+.contact-way{
+    width: 21%;
+}
+.contact-way-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-way-icon{
+    fill: white;
+    width: 60px;
+    height: 60px;
+}
+.footer-link{
+    list-style: none;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    transition: 0.1s;
+}
+.footer-link a:hover{
+    font-weight: bolder;
+    color: white;
+}

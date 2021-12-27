@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,600;1,700;1,800&display=swap');
 .image-logo{
     height: 50px;
 }
@@ -14,6 +15,10 @@
 .navbar-brand:hover{
     animation: rotator 3s;
 }
+#contact-nav:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #0000001c, -2px -2px 2px #0000001c ;
+}
 .header{
     height: 350px;
 }
@@ -22,8 +27,10 @@
     height: 100%;
 }
 .header-words{
+    font-size: 50px;
     width: 50%;
     height: 100%;
+    font-family: "Montserrat";
 }
 @keyframes logo-start {
     0%{
@@ -71,7 +78,7 @@
     box-shadow: 2px 2px 15px #0000001c,-2px -2px 15px #0000001c;
 }
 .team-member:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     box-shadow: 2px 2px 15px #00000063,-2px -2px 15px #00000063;
 }
 .team-member-image{
@@ -82,6 +89,13 @@
     width: 15px;
     height: 15px;
     margin-right: 5px;
+}
+.team-title{
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(239,113,151);
+    color: white;
+    border-radius: 25px;
 }
 .feature{
     width: 26%;
@@ -117,4 +131,40 @@
     .feature{
         width: 90%!important;
     }
+}
+.icon-arrow{
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+.footer-element.info{
+    width: 60% !important;
+}
+.footer-element.contact{
+    width: 40% !important;
+}
+.contact-way{
+    width: 21%;
+}
+.contact-way-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-way-icon{
+    fill: white;
+    width: 60px;
+    height: 60px;
+}
+.footer-link{
+    list-style: none;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    transition: 0.1s;
+}
+.footer-link a:hover{
+    font-weight: bolder;
+    color: white;
 }

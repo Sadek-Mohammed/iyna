@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+.image-logo{
+    height: 50px;
+}
+.navbar {
+    background-color: #fff!important;
+    z-index: 5555;
+}
+.navbar .nav-link {
+    color: #eee;
+    font-weight: 700;
+    margin: 0 6px;
+    font-size: 15px;
+}
+.navbar-brand:hover{
+    animation: rotator 3s;
+}
+#contact-nav:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #0000001c, -2px -2px 2px #0000001c ;
+}
+.publish-container{
+    display: flex;
+    flex-direction: column;
+}
+.publish-cta{
+    color:rgb(239, 113, 151);
+}
+.publish-button{
+    background-color: transparent;
+    align-self: flex-end;
+    padding: 0.5rem 1rem;
+    border: 3px rgb(239, 113, 151) solid;
+    transition: 0.5s all;
+}
+.publish-button:hover{
+    background-color: rgb(239, 113, 151);
+    color: white;
+}
+.intro-part{
+    width: 45%!important;
+}
+.intro-2{
+    width: 50% !important;
+}
+.icon-arrow{
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+.footer-element.info{
+    width: 60% !important;
+}
+.footer-element.contact{
+    width: 40% !important;
+}
+.contact-way{
+    width: 21%;
+}
+.contact-way-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-way-icon{
+    fill: white;
+    width: 60px;
+    height: 60px;
+}
+.footer-link{
+    list-style: none;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    transition: 0.1s;
+}
+.footer-link a:hover{
+    font-weight: bolder;
+    color: white;
+}
